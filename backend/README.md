@@ -2,9 +2,8 @@
 ---
 
 # Auto-Generated CRUD + RBAC Platform — **Backend Setup Guide**
-
-This backend powers the **Auto-Generated CRUD + RBAC Platform**, which dynamically generates database schemas and CRUD APIs with built-in Role-Based Access Control (RBAC).
-
+Built with Node.js, Express.js, Sequelize (MySQL), and JWT authentication,
+this backend powers the Auto-Generated CRUD + RBAC Platform, enabling dynamic model creation, auto CRUD APIs, and role-based access control (RBAC).
 ---
 
 ## Setup Instructions
