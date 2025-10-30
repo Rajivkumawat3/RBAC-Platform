@@ -1,0 +1,41 @@
+{
+  "name": "Employee",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "age",
+      "type": "number"
+    },
+    {
+      "name": "position",
+      "type": "string",
+      "default": "intern"
+    },
+    {
+      "name": "salary",
+      "type": "float"
+    },
+    {
+      "name": "isActive",
+      "type": "boolean",
+      "default": true
+    }
+  ],
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Schools",
+  "fields": [
+    {
+      "name": "school_nale",
+      "type": "string",
+      "required": true,
+      "default": ""
+    },
+    {
+      "name": "total-students",
+      "type": "number",
+      "required": true,
+      "default": "200"
+    },
+    {
+      "name": "principle_name",
+      "type": "string",
+      "required": false,
+      "default": ""
+    }
+  ],
+  "rbac": {
+    "Viewer": [
+      "read"
+    ],
+    "Manager": [
+      "create",
+      "read"
+    ],
+    "Admin": [
+      "all"
+    ],
+    "Teacher": [
+      "read"
+    ],
+    "Custom": [
+      "read"
+    ]
+  }
+}

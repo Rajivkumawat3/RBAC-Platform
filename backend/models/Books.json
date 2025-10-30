@@ -1,0 +1,30 @@
+{
+  "name": "Books",
+  "fields": [
+    {
+      "name": "price",
+      "type": "number",
+      "required": true,
+      "default": "20"
+    },
+    {
+      "name": "stocks",
+      "type": "number",
+      "required": true,
+      "default": "30"
+    }
+  ],
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #f7f8fa;
+}
+
+.sidebar {
+  width: 220px;
+  background: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.sidebar button {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar button:hover {
+  background: #666;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.create-schema {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.field-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.publish-btn {
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.publish-btn:hover {
+  background: #0056b3;
+}
+
+.no-access {
+  color: red;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.rbac-section {
+  margin-top: 20px;
+  background: #f8f9fb;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.rbac-role {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.rbac-role strong {
+  width: 100px;
+  color: #333;
+}
+
+.schema-view select {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f3f3f3;
+  text-align: left;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

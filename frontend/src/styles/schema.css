@@ -1,0 +1,87 @@
+.schema-view {
+  padding: 20px;
+  flex: 1;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.add-btn,
+.submit-btn {
+  background: #2563eb;
+  /* color: white; */
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover,
+.submit-btn:hover {
+  background: #1e40af;
+}
+
+.add-record-form {
+  /* background: #f3f4f6; */
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.required {
+  color: red;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px; /* color: white;
+}
+
+th {
+  background: #2563eb;
+  /* color: white; */
+}
+
+
+.role-info {
+  border-left: 4px solid #007bff;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.permissions-info {
+  margin-top: 10px;
+  background: #eef3ff;
+  border-left: 4px solid #3b82f6;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+}
