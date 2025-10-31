@@ -20,7 +20,10 @@ RBAC-Platform
 ---
 
 ## Setup Instructions
-
+### Clone the repo
+```
+ git clone https://github.com/Rajivkumawat3/RBAC-Platform.git
+```
 ### 🖥️ 1️⃣ Backend Setup
 
 To set up and run the backend, follow:
