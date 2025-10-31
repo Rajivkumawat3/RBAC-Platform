@@ -32,7 +32,7 @@ A sample environment file is already included:
 PORT=3001
 DB_NAME=rbac_platform
 DB_USER=root
-DB_PASS=            ← ⚠️ Add your MySQL root user password here
+DB_PASS=            ← ⚠️ Add your MySQL root user password here , add password in string formate
 DB_HOST=localhost
 DB_PORT=3306
 COOKIE_EXPIRE=50
