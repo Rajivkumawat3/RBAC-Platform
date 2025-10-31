@@ -30,7 +30,7 @@ A sample environment file is already included:
 
 ```env
 PORT=3001
-DB_NAME=autocrud
+DB_NAME=rbac_platform
 DB_USER=root
 DB_PASS=            ← ⚠️ Add your MySQL root user password here
 DB_HOST=localhost
@@ -49,7 +49,7 @@ JWT_SECRET=rajivkumarkumawat1234567
 Open your **MySQL Workbench** (or terminal) and create the database manually:
 
 ```sql
-CREATE DATABASE autocrud;
+CREATE DATABASE rbac_platform;;
 ```
 
 ---
